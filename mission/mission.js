@@ -26,4 +26,4 @@ function changeTheme() {
 
 // add an event listener to the themeSelector element here.
 // Use the changeTheme function as the event handler function.
-themeSelector.addEventListener('change', changeTheme); 
+themeSelector.addEventListener('change', changeTheme);
