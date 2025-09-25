@@ -11,16 +11,15 @@ function taskTemplate(task){
 }
 
 function renderTasks(tasks) {
-  const listElement = document.querySelector("todoLists");
+  const listElement = document.querySelector("#todoList");
   const html = tasks.map(taskTemplate).join("");
   listElement.innerHTML = html;
-  // get the list element from the DOM
-  // loop through the tasks array. transform (map) each task object into the appropriate HTML to represent a to-do.
 }
 
 function newTask() {
   const inputElement = document.querySelector("#todo");
   tasks.push({detail: inputElement.value, completed: false});
+  inputElement.value = "";
   renderTasks(tasks);
 }
 
