@@ -115,12 +115,12 @@ footer p {
 }
 @media screen and (min-width: 1000px) {
     .viewer {
-        margin: 40px;
+        margin: 30px;
         grid-template-rows: 15% 85%;
     }
 
     .viewer img {
-        width: 675px;
+        width: 600px;
     }
 
     .close-viewer {
